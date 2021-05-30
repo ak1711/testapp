@@ -13,10 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Route::get('/', 'App\Http\Controllers\HomeController@member')->name('member');
 Route::get('/{id}/edit', 'App\Http\Controllers\HomeController@edit');
 Route::post('/store', 'App\Http\Controllers\HomeController@memberstore')->name('memberstore');
