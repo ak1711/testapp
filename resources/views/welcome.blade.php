@@ -96,9 +96,7 @@
             </table>
         </div>
     </div>  
-
 </div>
-
 <div id="createForm" class="modal fade" role="dialog">
     <div class="modal-dialog modal-xs">
         <div class="modal-content">
@@ -141,6 +139,5 @@
         </div>
     </div>
 </div>
-
 </body>
 </html>
