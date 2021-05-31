@@ -15,4 +15,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'App\Http\Controllers\HomeController@member')->name('member');
 Route::get('/{id}/edit', 'App\Http\Controllers\HomeController@edit');
+Route::get('/{id}/delete', 'App\Http\Controllers\HomeController@delete')->name('memberdelete');
 Route::post('/store', 'App\Http\Controllers\HomeController@memberstore')->name('memberstore');

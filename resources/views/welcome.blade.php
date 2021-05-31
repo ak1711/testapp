@@ -83,7 +83,10 @@
                             <td>{{$value->account_id}}</td>
                             <td>{{$value->created_at}}</td>
                             <td>{{$value->modified_at}}</td>
-                            <td><a href="javascript:void(0);" title="Edit Member" data-rowid="{{$value->id}}"  class="editMemberButton"><span class="badge bg-info">EDIT</span></a></td>
+                            <td>
+                                <a href="javascript:void(0);" title="Edit Member" data-rowid="{{$value->id}}"  class="editMemberButton"><span class="badge bg-info">EDIT</span></a>&nbsp;
+                                <a href="{{route('memberdelete',[$value->id])}}" title="Delete Member" data-rowid="{{$value->id}}" onclick="return confirm('Are you sure want to delete?')"><span class="badge bg-danger">DELETE</span></a>
+                            </td>
                         </tr>
                         <?php
                     }

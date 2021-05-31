@@ -22,7 +22,7 @@ class HomeController extends Controller{
     }
     public function delete($id){
         $retData=DB::table('tblmembers')->where('id',$id)->delete();
-        return 200;
+        return redirect(route('member'));
     }
     public function memberstore(Request $request){
         $editid=(null != $request->input('member_id')?$request->input('member_id'):'');
