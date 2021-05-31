@@ -54,6 +54,7 @@
                 <a class="btn btn-success" href="javascript:void(0);" id="createMemberButton">Add Member </a>
             </div>
         </div>
+
         <div class="row row-xs">
             <div class="col-sm-12 col-lg-12">
                 <table class="table" id="membersList" style="width:100%">
@@ -94,8 +95,10 @@
                 </tbody>
             </table>
         </div>
-    </div>       
+    </div>  
+
 </div>
+
 <div id="createForm" class="modal fade" role="dialog">
     <div class="modal-dialog modal-xs">
         <div class="modal-content">
@@ -138,5 +141,6 @@
         </div>
     </div>
 </div>
+
 </body>
 </html>
