@@ -109,23 +109,23 @@
                 <div class="modal-body">
                     <div class="row row-sm">
                         <div class="col-sm-12 mg-t-10">
-                            <label>First Name<span class="text-danger">*</span></label>
+                            <label>First Name <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" required="required" name="first_name" id="first_name">
                         </div>
                         <div class="col-sm-12 mg-t-10">
-                            <label>Last Name<span class="text-danger">*</span></label>
+                            <label>Last Name <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" required="required" name="last_name" id="last_name">
                         </div>
                         <div class="col-sm-12 mg-t-10">
-                            <label>Phone Number<span class="text-danger">*</span></label>
+                            <label>Phone Number <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" required="required" name="phone_number" id="phone_number">
                         </div>
                         <div class="col-sm-12 mg-t-10">
-                            <label>Client Member Id<span class="text-danger">*</span></label>
+                            <label>Client Member Id <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" required="required" name="client_member_id" id="client_member_id">
                         </div>
                         <div class="col-sm-12 mg-t-10">
-                            <label>Account Id<span class="text-danger">*</span></label>
+                            <label>Account Id <span class="text-danger">*</span></label>
                             <input type="text" class="form-control" required="required" name="account_id" id="account_id">
                         </div>
                     </div>
