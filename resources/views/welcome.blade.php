@@ -100,7 +100,7 @@
     <div class="modal-dialog modal-xs">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="memberCrudModal">Create Member </h4>
+                <h4 class="modal-title" id="memberCrudModal">Create Member</h4>
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
             <form id="MemberForm" action="{{route('memberstore')}}" method="post" name="MemberForm" class="form-horizontal">
@@ -138,6 +138,5 @@
         </div>
     </div>
 </div>
-
 </body>
 </html>
